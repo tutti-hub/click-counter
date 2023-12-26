@@ -1,0 +1,62 @@
+html {
+    background-color: lightblue;
+    font-family: "Liberian Sans", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+.header {
+    color: cadetblue;
+    font-size: 2rem;
+    text-shadow: 1px 1px 5px grey;
+}
+
+.monitor {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.monitor__item {
+    width: 25rem;
+    height: 10rem;
+    background-color: cadetblue;   
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px grey;
+    line-height: 10rem;
+    color: lightblue;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.control-panel__button {
+    width: 20rem;
+    height: 15rem;
+    background-color: cadetblue;
+    border-radius: 1rem;
+    line-height: 15rem;
+    color: lightblue;
+    margin: auto;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.control-panel__button::before {
+    content: "Click Me";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.control-panel__button:active {
+    color: cadetblue;
+    box-shadow: none;
+}
